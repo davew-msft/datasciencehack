@@ -63,7 +63,8 @@ cd notebooks
 Now enter the following command to clone this GitHub repository to this folder:
 
 ```shell
-git clone <this notebook address>
+git clone <this repo address>
+git clone https://git.davewentzel.com/demos/datasciencehack.git
 ```
 
 After the repo has been downloaded, switch back to the tab containing the folder tree, refresh the view if necessary, and verify that the **ready2019** folder has been downloaded.

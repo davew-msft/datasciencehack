@@ -36,6 +36,11 @@ There are three tasks in this challenge:
 
 Explore the notes and code in the **02-Image Classification (*framework*).ipynb** notebook in the **/notebooks** folder to see an example of building and using a CNN.
 
+#### Hints
+
+* When you generate the `shapes` you can view them quickly right in jupyterhub by navigating to `notebooks/shapes` then clicking through a few 
+* You may see some errors when installing libraries.  Simply rerun the cell and see if that solves the issue.  These packages are constantly changing and I've done my best to ensure they are totally rerunnable, but they aren't.  
+
 ### 2. Create and train a convolutional neural network (CNN) model
 
 In a a new notebook, create a CNN that predicts the class of an image based on the resized *gear* images you created in the previous challenge.
@@ -50,13 +55,14 @@ In a a new notebook, create a CNN that predicts the class of an image based on t
 
 #### Hints
 
-* Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
-* Base your initial solution on the code in the sample notebook.
+* Use the **Python 3.5** kernel 
+* Steal the code from the sample notebook you just ran.  But make Base your initial solution on the code in the sample notebook.
 * To improve the model's performance, try adding more convolutional and pool layers, or using more training epochs.
 * Try to avoid *overfitting* your model to the training data. One sign of this is that after your training and validation loss metrics converge, the training loss continues to drop but your validation loss stays the same or rises (as shown in the image above). The end result is a model that performs well when predicting the classes of images that it has been trained on, but which does not generalize well to new images.
 * Techniques to help avoid overfitting include:
   * Including *drop* layers to randomly remove some features from the model.
   * Augmenting the data with re-oriented, skewed, or otherwise altered versions of training images.
+    * try "rotating" your images a bit
 
 ### 3. Use your model with new data
 

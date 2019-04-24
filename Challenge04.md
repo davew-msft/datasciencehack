@@ -8,9 +8,7 @@ Previously, you build a convolutional neural network (CNN) to classify product i
 
 ## Prerequisites
 
-* A Data Science Virtual Machine (DSVM)
 * The resized  ***gear*** image data fom the previous challenges.
-* An installation of the latest version of your chosen deep learning framework(s) based on the **References** section below.
 
 ## Challenge
 
@@ -30,7 +28,7 @@ Create a new CNN by using *transfer learning* to build a classifier on top of th
 
 #### Hints
 
-* - Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
+* Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
 * Base your initial solution on the code in the sample notebook.
 * You can use any base model supported by your chosen deep learning framework.
 * You may need to resize the images to match the size used to train the base model you select.
@@ -48,7 +46,6 @@ Use your model to predict the class of at least five images that are not include
 
   *(Note: Your model is not required to predict the correct class for all of the images, but it would be good if it does!)*
 
-  When your coach has verified your team's solution, you have completed all of the challenges - congratulations!
 
 ## References
 

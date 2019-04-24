@@ -8,8 +8,8 @@ In this challenge you will use *Azure Machine Learning Services* and the *Azure 
 
 ## Prerequisites
 
-* A Data Science Virtual Machine (DSVM).
-* Your code to train an image classification model.
+* Your DSVM
+* Your working model and code from Challenge02.
 
 ## Challenge
 
@@ -21,7 +21,23 @@ There are three elements to this challenge:
 
 ### 1. Explore Azure ML Deployment
 
-Explore the notes and code in the **03-Azure ML (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of using Azure ML to deploy a model to a containerized web service.
+Explore the notes and code in the **03-Azure ML (*framework*).ipynb** notebook in the **/notebooks** folder to see an example of using Azure ML to deploy a model to a containerized web service.
+
+
+
+#### Hints
+
+* AML Workspaces are not available in every region...look at any errors and adjust accordingly.  `east us` works.  
+* Open the Azure Portal and examine what the AML Workspace looks like.  After each cell that interacts with the workspace, look at what was added/changed in the portal.  
+  * many times you will ask aml to do something and the command will complete, yet you won't see it in the Azure Portal.  For instance, "creating an image".  This is because you are actually only *defining* the container.  It gets built during the deployment.  
+* It may take some time for some of the AML steps to complete.  You can see their status in the Azure Portal under AML|Activities
+
+#### Questions
+
+* where is the config written?  
+* how can you examine `score_pytorch.py`?
+* **Do not delete the workspace...yet!!** 
+
 
 ### 2. Deploy your gear classification model as a web service
 
@@ -29,7 +45,7 @@ Use the Azure Machine Learning SDK to provision an Azure Machine Learning Worksp
 
 ### Hints
 
-* Use the **Python 3.6 - Azure ML** kernel in Jupyterhub on your DSVM.
+* Make sure you are using the **Python 3.6 - Azure ML** kernel in Jupyterhub on your DSVM.
 * Your deployment must include a scoring script that loads your model, uses it to generate a prediction from the input data, and returns the prediction. Remember that you must apply any data transformations that were used to pre-process the training data to the input data.
 * You need to specify the Python libraries used by your scoring script in a .yml file, so that they are installed in the container image when it is deployed.
 * Pay careful attention to the expected formats for input and output data, which is exchanged over HTTP when using the deployed model.

@@ -8,9 +8,16 @@ Audience: Data Architects, Data Scientists, CTO
 
 **IMPORTANT!!** – If you are attending a hands-on WORKSHOP, a laptop and an active Azure subscription are required in order to work through the labs. You will want to make sure you have the appropriate set of rights in that subscription to instantiate the services that you will be working with. If you have any questions about these requirements, please reach out to your Microsoft contact.
 
-## Content
+## Ancillary Content
 
 [Presentation](OpenHack-DeepLearning.pptx)  
+[ML Primers](MLIntros/README.md) :  these notebooks are good for basic ML and AI work.  If you are stuck doing this hack then consider doing these instead.  
+
+## Helpful Hints
+
+* If you don't understand something, just ask
+* This is fairly advanced stuff.  If you get lost, just ask.  Don't get frustrated.  We attempt to do in 1 day what may take a team *months* to do.  
+
 
 ## Scenario
 
@@ -30,3 +37,5 @@ The hack will begin with a short presentation to set the context and explain fun
 * [If Time permits, Challenge 4: Following the Marked Trail](Challenge04.md)
 
 Each challenge covers a different aspect of machine learning for computer vision, and all of them will require you to write Python code. You can reference the <a href="https://docs.python.org/3.6/" target="_blank">Python 3.6 documentation</a> for help.
+
+[Instructor Notes](InstructorNotes.md)
