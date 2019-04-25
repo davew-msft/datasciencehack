@@ -17,6 +17,7 @@ Audience: Data Architects, Data Scientists, CTO
 
 * If you don't understand something, just ask
 * This is fairly advanced stuff.  If you get lost, just ask.  Don't get frustrated.  We attempt to do in 1 day what may take a team *months* to do.  
+* Need an Azure Subscription?  [Here are the steps](provision.md).  
 
 
 ## Scenario

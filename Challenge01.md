@@ -45,6 +45,8 @@ You *may* need to connect to the DSVM remotely.  It's best to use x2go client.  
 - Jupyterhub is at **https://*your.dsvm.ip.address*:8000**. For information about using Jupyterhub, see <a href="https://www.youtube.com/watch?v=4b1G9pQC3KM" target="_blank"> this video</a> or <a href="https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/linux-dsvm-walkthrough/?wt.mc_id=OH-ML-ComputerVision#jupyterhub" target="_blank">this document</a>.
 - To get to the Jupyterhub, you must click through the non-private connection warnings in browser - this is expected behavior.
 - If  Jupyterhub takes a while to load, click the **jupyter** logo to open the folder tree page.
+- JupyterHub is available at https://*ip*:8000/user/<user>/lab 
+  - this is a much improved interface
 
 See the **References** section below for more guidance and help.
 
