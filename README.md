@@ -1,3 +1,9 @@
+**try adding the following to the next version of this class**:
+
+*  https://blog.revolutionanalytics.com/2019/01/notebooks-from-the-practical-ai-workshop.html  (see video)
+  *  notebooks are cloned to notebooks.azure.com personal account
+
+
 # WORKSHOP: Deep Learning, AI, and ML: A Hands-on Hack
 
 https://www.microsoftevents.com/profile/6549225
