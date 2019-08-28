@@ -18,6 +18,7 @@ Audience: Data Architects, Data Scientists, CTO
 
 [Presentation](OpenHack-DeepLearning.pptx)  
 [ML Primers](MLIntros/README.md) :  these notebooks are good for basic ML and AI work.  If you are stuck doing this hack then consider doing these instead.  
+[Intro to Data Science Presentation](DataScience.pptx)
 
 ## Helpful Hints
 
