@@ -1,12 +1,7 @@
-**try adding the following to the next version of this class**:
-
-*  https://blog.revolutionanalytics.com/2019/01/notebooks-from-the-practical-ai-workshop.html  (see video)
-  *  notebooks are cloned to notebooks.azure.com personal account
-
 
 # WORKSHOP: Deep Learning, AI, and ML: A Hands-on Hack
 
-https://www.microsoftevents.com/profile/6549225
+[Original Workshop Signup Link](https://www.microsoftevents.com/profile/6549225)
 
 Have you read about Deep Learning but don't understand it? Did you ever wonder how computer vision AI really works under-the-covers? Wondering how AI can transform your business? In this "hackfest" we will look at a real computer vision use case for a REAL company. Then we'll break apart the solution and show you how to develop it, even if you are NOT a developer. Scattered throughout the day we'll learn the theory behind the implementation and show you how to develop DevOps pipelines to deploy the solution. Whether you are a seasoned data scientist, a developer wanting to learn new skills, or a business person that has never touched a Jupyter notebook but wants to see the Art of the Possible, this session is for you!
 

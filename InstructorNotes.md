@@ -3,6 +3,13 @@
 
 * read all hints before starting a section
 
+* Location of gear_images:  
+
+**try adding the following to the next version of this class**:
+
+*  https://blog.revolutionanalytics.com/2019/01/notebooks-from-the-practical-ai-workshop.html  (see video)
+  *  notebooks are cloned to notebooks.azure.com personal account
+
 Flow:  
 
 * start deploying DSVM for Challenge01 

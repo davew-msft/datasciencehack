@@ -34,6 +34,8 @@ The following DSVM configuration has been found to work well, and is the recomme
 
 After the DSVM has been created, connect to Jupyterhub and log in using the username and password you specified when provisioning the DSVM.
 
+_Why use GPUs?_  GPUs are meant for training neural networks.  They tend to train orders of magnitude faster than CPUs.  We won't be training with a lot of data so it's OK if you don't use a GPU for training.  
+
 #### Remote Connection
 
 You *may* need to connect to the DSVM remotely.  It's best to use x2go client.  Use `xfce` as the connection type.  Ensure you can connect.  
