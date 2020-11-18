@@ -3,7 +3,9 @@
 
 * read all hints before starting a section
 
-* Location of gear_images:  
+* Location of gear_images:  davewdemoblobs gear-images
+https://davewdemoblobs.blob.core.windows.net/gear-images?sv=2019-02-02&st=2020-11-18T14%3A37%3A59Z&se=2030-11-19T14%3A37%3A00Z&sr=c&sp=rl&sig=nPZL7Wrb8UP9OY9yfDw6z%2BKQmQJuoftNjaAj9e07Uoc%3D
+?sv=2019-02-02&st=2020-11-18T14%3A37%3A59Z&se=2030-11-19T14%3A37%3A00Z&sr=c&sp=rl&sig=nPZL7Wrb8UP9OY9yfDw6z%2BKQmQJuoftNjaAj9e07Uoc%3D
 
 **try adding the following to the next version of this class**:
 
